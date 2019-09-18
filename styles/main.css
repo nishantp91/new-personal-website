@@ -214,13 +214,17 @@ body, html {
 	background-image: url("../images/background4.jpg");
 	height: 50%;
 }
+.skill-heading{
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
 .skill_button {
   width: auto;
   height: 45px;
   margin: 20px;
   padding-left: 25px;
   padding-right: 25px;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -335,5 +339,8 @@ body, html {
 	.lead {
 		font-size: 1.0rem !important;
 	}
+	.skill_button {
+  		height: auto;
+  	}	
 	
 }
